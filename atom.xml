@@ -4,7 +4,7 @@
   <title><![CDATA[virgil]]></title>
   <link href="http://leehong.github.com/atom.xml" rel="self"/>
   <link href="http://leehong.github.com/"/>
-  <updated>2012-10-01T20:00:36+08:00</updated>
+  <updated>2012-10-01T20:22:32+08:00</updated>
   <id>http://leehong.github.com/</id>
   <author>
     <name><![CDATA[leehong]]></name>
@@ -12,5 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[我的新博客]]></title>
+    <link href="http://leehong.github.com/blog/2012/10/01/wo-de-xin-bo-ke/"/>
+    <updated>2012-10-01T20:14:00+08:00</updated>
+    <id>http://leehong.github.com/blog/2012/10/01/wo-de-xin-bo-ke</id>
+    <content type="html"><![CDATA[<p>新博客弄好了,之前用jekyll搭建的blog还是没有octopress强大啊,很感谢<a href="https://github.com/imathis">imathis</a>的贡献&#8230;</p>
+]]></content>
+  </entry>
   
 </feed>
