@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[virgil]]></title>
-  <link href="http://leehong.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: 测试 | virgil]]></title>
+  <link href="http://leehong.github.com/blog/categories/测试/atom.xml" rel="self"/>
   <link href="http://leehong.github.com/"/>
   <updated>2012-10-04T01:54:47+08:00</updated>
   <id>http://leehong.github.com/</id>
@@ -18,7 +18,7 @@
     <link href="http://leehong.github.com/blog/2012/10/01/wo-de-xin-bo-ke/"/>
     <updated>2012-10-01T20:14:00+08:00</updated>
     <id>http://leehong.github.com/blog/2012/10/01/wo-de-xin-bo-ke</id>
-    <content type="html"><![CDATA[<p>新博客弄好了,之前用jekyll搭建的blog还是没有octopress强大啊,很感谢<a href="https://github.com/imathis">imathis</a>的贡献&#8230;</p>
+    <content type="html"><![CDATA[<p>新博客弄好了,之前用jekyll搭建的blog还是没有octopress强大啊,很感谢<a href="https://github.com/imathis">imathis</a>的贡献...</p>
 ]]></content>
   </entry>
   
