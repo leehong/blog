@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[virgil]]></title>
+  <title><![CDATA[virgil's blog]]></title>
   <link href="http://leehong.github.com/atom.xml" rel="self"/>
   <link href="http://leehong.github.com/"/>
-  <updated>2012-10-04T12:07:47+08:00</updated>
+  <updated>2012-10-05T00:44:32+08:00</updated>
   <id>http://leehong.github.com/</id>
   <author>
     <name><![CDATA[leehong]]></name>
