@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: 测试 | virgil's blog]]></title>
-  <link href="http://leehong.github.com/blog/categories/%E6%B5%8B%E8%AF%95/atom.xml" rel="self"/>
+  <title><![CDATA[Category: octopress | virgil's blog]]></title>
+  <link href="http://leehong.github.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://leehong.github.com/"/>
-  <updated>2012-10-05T00:44:32+08:00</updated>
+  <updated>2012-10-06T23:41:41+08:00</updated>
   <id>http://leehong.github.com/</id>
   <author>
     <name><![CDATA[leehong]]></name>
