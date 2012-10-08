@@ -9,7 +9,7 @@
   <meta name="author" content="leehong">
 
   
-  <meta name="description" content="来源:外刊IT评论网 英文来源:8 Linux Commands Every Developer Should Know 每个程序员，在职业生涯的某个时刻，总会发现自己需要知道一些Linux方面的知识。我并不是说你应该成为一个Linux专家，我的意思是，当面对linux命令行任务时， &hellip;">
+  <meta name="description" content="devise是rails的一个gem,rails 的gem的好处就是各种便利,即使你不知道它的内在原理,你也可以很好的使用,只要你按照doc操作.关于devise的好处就不用说了,使用它之后不用不用在关心帐号的各种处理了,只要你按照它的步骤操作,一分钟就搞定了,给我们带来了很大的便利. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +78,63 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/10/09/guan-yu-shi-yong-devise/">关于使用devise</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-10-09T01:08:00+08:00" pubdate data-updated="true">Oct 9<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="https://github.com/plataformatec/devise">devise</a>是rails的一个gem,rails 的gem的好处就是各种便利,即使你不知道它的内在原理,你也可以很好的使用,只要你按照doc操作.关于devise的好处就不用说了,使用它之后不用不用在关心帐号的各种处理了,只要你按照它的步骤操作,一分钟就搞定了,给我们带来了很大的便利.</p>
+
+<p>怎么使用devise就不详细说了,官方和现在的资料已经很仔细了,我要说的是这个方法after_sign_up_path_for ,这个方法里面你对制定的帐号登陆之后跳转的到指定的path,例如:</p>
+
+<pre><code>  private 
+  def after_sign_in_path_for(resource)
+      这里进行处理
+      if resource.is_a?(User)  
+        这里指定的path
+      else
+        super
+      end
+  end
+</code></pre>
+
+<p>对应的登出也有这样的一个方法</p>
+
+<pre><code>  private
+  def after_sign_out_path_for(resource_or_scope)
+      这里一般是跳到首页了
+  end
+</code></pre>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -361,6 +418,10 @@ uniq – 删除重复的行
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2012/10/09/guan-yu-shi-yong-devise/">关于使用devise</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/10/06/linuxchang-yong-de-8ge-ming-ling/">linux常用的8个命令</a>
       </li>
     
@@ -372,7 +433,7 @@ uniq – 删除重复的行
 </section>
 <section>
   <h1>分类</h1>
-    <ul id="category-list"><li><a href='/blog/categories/linux'>linux (1)</a></li><li><a href='/blog/categories/octopress'>octopress (1)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/linux'>linux (1)</a></li><li><a href='/blog/categories/octopress'>octopress (1)</a></li><li><a href='/blog/categories/ruby-rails'>ruby&rails (1)</a></li></ul>
 </section>
 
 <section>
