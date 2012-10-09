@@ -4,7 +4,7 @@
   <title><![CDATA[virgil's blog]]></title>
   <link href="http://leehong.github.com/atom.xml" rel="self"/>
   <link href="http://leehong.github.com/"/>
-  <updated>2012-10-09T01:38:06+08:00</updated>
+  <updated>2012-10-10T02:10:13+08:00</updated>
   <id>http://leehong.github.com/</id>
   <author>
     <name><![CDATA[leehong]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ruby-china聚会]]></title>
+    <link href="http://leehong.github.com/blog/2012/10/10/ruby-chinaju-hui/"/>
+    <updated>2012-10-10T01:38:00+08:00</updated>
+    <id>http://leehong.github.com/blog/2012/10/10/ruby-chinaju-hui</id>
+    <content type="html"><![CDATA[<p>fsword来北京出差,建议大家聚聚聊聊,正好也没有什么事,就去凑个热闹,7点多我就直接从国家图书馆杀了过去,在一个小巷子里面,不太好找,幸好提前查了一下地图,去的时候还没有人到,我第一个,后来林生和xds2000到了,xds2000得知在redhat工作,小小的膜拜一下吧,也想某天能够进这样的外企感受一下,后来笑来老师带着他的助理到了,陆陆续续的人都来了,总共11个人吧.大家自我介绍,然后大家吃着羊肉,聊着天.</p>
+
+<p>聊天的主题是怎么去学习,那些分享视频的让新手很容易的就开始学习,少走弯路,少掉进坑里,评论xds2000做的视频里英语发音不标准,以后的视频会好好的审查,这是一个难得的机会啊,笑来老师说的最多的就是怎么教好别人,因为他是一个老师,要做一件事就要做好.
+这让我很感动,不想现在的很多老师,你学到知识学不到,不关我事,没有一点责任心.他的那种执着的精神值的学习,他也40岁,事业有成,按道理不用学习什么rails,没有什么多大的意义多很多人来说,但是他说他爱学习,他决定什么事都是自己动手自己干.很受启发,很希望能够拜在他的门下学习.</p>
+
+<p>时间过的很快,不知不觉就到了10点半了,大家就撤了,郁闷的是我上的地铁是半程车,不能到北苑,郁闷至极.只有打车回去了,和一老外美女拼车,她听不懂英文,只说到西直门要多少钱,司机在那说70,比手势,但她不懂,他也为很贵,不坐,在司机的比划,然后问我多少钱,我用很我那仅有的口语跟她解释,终于上车,走人了,在车上她一股劲在骂 fucking china,很奇怪的是我差不多都听懂了,中途问了她是那的,她还打电话跟她朋友说遇到一个英语很不好的人,我伤心啊,感叹那时候没有好好的学&#8230;</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[关于使用devise]]></title>
