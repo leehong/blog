@@ -4,7 +4,7 @@
   <title><![CDATA[Category: octopress | virgil's blog]]></title>
   <link href="http://leehong.github.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://leehong.github.com/"/>
-  <updated>2012-10-10T03:08:29+08:00</updated>
+  <updated>2012-10-22T12:20:46+08:00</updated>
   <id>http://leehong.github.com/</id>
   <author>
     <name><![CDATA[leehong]]></name>
@@ -19,6 +19,28 @@
     <updated>2012-10-01T20:14:00+08:00</updated>
     <id>http://leehong.github.com/blog/2012/10/01/wo-de-xin-bo-ke</id>
     <content type="html"><![CDATA[<p>新博客弄好了,之前用jekyll搭建的blog还是没有octopress强大啊,很感谢<a href="https://github.com/imathis">imathis</a>的贡献...</p>
+
+<p>博客的主题是参考别人的设置的CSS的,具体大家可以google,没有什么难度,还有就是文章的分类,这个在plugins目录下的category_generate.rb修改,就是想里面的方法替换掉</p>
+
+<pre><code>     def write_category_index(category_dir, category)
+        index = CategoryIndex.new(self, self.source, category_dir, category)
+        index.render(self.layouts, site_payload)
+        index.write(self.dest)
+        # Record the fact that this page has been added, otherwise Site::cleanup      will remove it.     
+        self.pages &lt;&lt;      index    
+
+          # Create an Atom-feed for each index.
+          feed = CategoryFeed.new(self, self.source, category_dir, category)
+          feed.render(self.layouts, site_payload)
+          feed.write(self.dest)
+          # Record the fact that this page has been added, otherwSite::cleanup      will remove it.
+        self.pages &lt;&lt; feed
+    end
+
+  然后就是修改_config.yml配置文件,octopress官方文档说的很清楚了,然后就是豆瓣个人秀,去自己的豆瓣开发者个人中心,然后_include/asides目录下添加douban.html,然后在_config.yml的default_asides里面加入douban.html就ok了.
+
+  就这样博客就搭建好了,关于octopress的教材网上很多的,我就粗略的介绍一下 :)....
+</code></pre>
 ]]></content>
   </entry>
   
