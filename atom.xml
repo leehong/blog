@@ -4,7 +4,7 @@
   <title><![CDATA[virgil's blog]]></title>
   <link href="http://leehong.github.com/atom.xml" rel="self"/>
   <link href="http://leehong.github.com/"/>
-  <updated>2012-10-22T12:20:46+08:00</updated>
+  <updated>2012-10-23T20:37:19+08:00</updated>
   <id>http://leehong.github.com/</id>
   <author>
     <name><![CDATA[leehong]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[AdMaster复试]]></title>
+    <link href="http://leehong.github.com/blog/2012/10/23/admasterfu-shi/"/>
+    <updated>2012-10-23T08:50:00+08:00</updated>
+    <id>http://leehong.github.com/blog/2012/10/23/admasterfu-shi</id>
+    <content type="html"><![CDATA[<p>本来该上周一复试的,由于老爹生病了,回家看看.请求HR就到这周一了,很感谢能给我这个机会,面试我的是<a href="http://weibo.com/marscheng">程显峰</a>,但我当时不知道,可能是有点紧张,更多的是注意问的问题.我觉得可能是我面试问的最好的.感觉不像是面试的,更多像指导.主要有下面几个问题,也是我很困扰的问题.</p>
+
+<p>1.喜欢做什么.
+2.该怎么去学习.
+3.工作方式和环境.
+4.最近看那些书.</p>
+
+<p>对于第一条,还不是很明确;第二条,还需要不断的追寻;第三条,自由\开放\团结就可以了.希望能加入AdMaster.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ruby-china聚会]]></title>
@@ -280,7 +296,7 @@ uniq – 删除重复的行
         self.pages &lt;&lt; feed
     end
 
-  然后就是修改_config.yml配置文件,octopress官方文档说的很清楚了,然后就是豆瓣个人秀,去自己的豆瓣开发者个人中心,然后_include/asides目录下添加douban.html,然后在_config.yml的default_asides里面加入douban.html就ok了.
+  然后就是修改_config.yml配置文件,octopress官方文档说的很清楚了,然后就是豆瓣个人秀,去自己的豆瓣开发者个人中心,然后_include/asides目录下添加douban.html,然后在_config.yml的default_asides里面加入douban.html就ok了.其它的sides都按照这样的步骤.
 
   就这样博客就搭建好了,关于octopress的教材网上很多的,我就粗略的介绍一下 :)....
 </code></pre>
