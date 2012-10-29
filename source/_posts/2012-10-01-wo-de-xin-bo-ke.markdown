@@ -24,6 +24,6 @@ categories:  octopress
             self.pages << feed
         end
 
-      然后就是修改_config.yml配置文件,octopress官方文档说的很清楚了,然后就是豆瓣个人秀,去自己的豆瓣开发者个人中心,然后_include/asides目录下添加douban.html,然后在_config.yml的default_asides里面加入douban.html就ok了.
+      然后就是修改_config.yml配置文件,octopress官方文档说的很清楚了,然后就是豆瓣个人秀,去自己的豆瓣开发者个人中心,然后_include/asides目录下添加douban.html,然后在_config.yml的default_asides里面加入douban.html就ok了.其它的sides都按照这样的步骤.
 
       就这样博客就搭建好了,关于octopress的教材网上很多的,我就粗略的介绍一下 :)....
