@@ -3,7 +3,7 @@ layout: post
 title: "关于使用devise"
 date: 2012-10-09 01:08
 comments: true
-categories:  ruby&rails
+categories:  rails
 ---
 
 [devise](https://github.com/plataformatec/devise)是rails的一个gem,rails 的gem的好处就是各种便利,即使你不知道它的内在原理,你也可以很好的使用,只要你按照doc操作.关于devise的好处就不用说了,使用它之后不用不用在关心帐号的各种处理了,只要你按照它的步骤操作,一分钟就搞定了,给我们带来了很大的便利.
